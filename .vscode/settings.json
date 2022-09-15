@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/dbcf5bb3-215c-4b2d-9c09-0488d9878247/microsoft.web/sites/subscriptions/dbcf5bb3-215c-4b2d-9c09-0488d9878247/resourceGroups/hulala_group/providers/Microsoft.Web/sites/whale-succulent",
+    "appService.deploySubpath": "."
+}
