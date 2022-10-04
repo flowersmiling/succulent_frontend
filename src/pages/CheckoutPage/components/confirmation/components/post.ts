@@ -279,7 +279,7 @@ async function insertNewOrder(
     }
 
 function makePayment(price: string, tag: any, productIds: any, searchQuery: any, children: any){
-    fetch('https://succulentbackend.azurewebsites.net/api/checkout/payment-api', {
+    fetch('https://whale-succulent.azurewebsites.net/api/checkout/payment-api', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
