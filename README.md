@@ -1,21 +1,17 @@
 ## How to run this project
 
-### Configure frontend environment variable
+### Configure frontend package.json
 
 ```
-REACT_APP_SERVICE_ID=                             // Service ID from email.js: https://www.emailjs.com/
-REACT_APP_TEMPLATE_ID=                            // Template ID from email.js
-REACT_APP_PUBLIC_KEY=                             // Public key from email.js
-REACT_APP_AZURE_SASTOKEN=                         // SASTOKEN from azure blob storage: https://azure.microsoft.com/en-ca/services/storage/blobs/
-REACT_APP_AZURE_STORAGE_ACCOUNT_NAME=             // Azure blob storage account name
-REACT_APP_GOOGLE_CLIENT_ID=                       // Google Authentication api id
+"proxy": "https://whale-succulent.azurewebsites.net"        // Put the backend on the Azure
+  or
+"proxy": "127.0.0.1:5000"                                   // Put the backend at the localhost, port:5000
 ```
 
 ### Configure backend
-This is the frontend of this project you also need the [backend](https://github.com/WhaleSucculent/succulent_backend) to run this project.
-
-
-
+This is the frontend of this project you also need the 
+[backend]
+(https://github.com/flowersmiling/succulent_backend) to run this project.
 
 
 ## Available Scripts
